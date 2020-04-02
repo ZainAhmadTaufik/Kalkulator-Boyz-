@@ -29,3 +29,4 @@ int perkalian(){
 	m.hasil=m.a*m.b;
 	cout<<m.a<<" * "<<m.b<<" = "<<m.hasil;
 }
+
