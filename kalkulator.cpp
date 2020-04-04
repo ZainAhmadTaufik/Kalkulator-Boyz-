@@ -10,6 +10,16 @@ class kalkulator{
 		float a,b,hasil;
 };
 
+int perkalian(){
+	kalkulator m;
+	cout<<"masukan nilai a : ";
+	cin>>m.a;
+	cout<<"masukan nilai b : ";
+	cin>>m.b;
+	m.hasil=m.a*m.b;
+	cout<<m.a<<" * "<<m.b<<" = "<<m.hasil;
+}
+
 int pertambahan(){
 	kalkulator m;
 	cout<<"masukkan nilai a :";
@@ -19,5 +29,3 @@ int pertambahan(){
 	m.hasil=m.a+m.b;
 	cout<<m.a<<" + "<<m.b<<" = "<<m.hasil;
 }
-
-
